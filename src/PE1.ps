@@ -1,0 +1,11 @@
+/total 0 def
+/i 0 def
+999 {
+        /i i 1 add def
+        i 3 mod 0 eq
+        i 5 mod 0 eq
+        or
+        {/total total i add def}
+        if
+} repeat
+total =

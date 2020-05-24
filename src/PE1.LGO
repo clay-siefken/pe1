@@ -1,0 +1,15 @@
+to Main
+	make "total 0
+	FOR [i 0 999 1] [make "total :total + modi :i]
+	show :total
+end
+
+to modi :i
+	make "rv 0
+	make "r3 remainder :i 3
+	make "r5 remainder :i 5
+	ifelse :r3 = 0 [make "rv :i] [make "rv :rv]
+	ifelse :r5 = 0 [make "rv :i] [make "rv :rv]
+	output :rv
+end
+

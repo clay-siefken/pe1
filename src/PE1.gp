@@ -1,0 +1,1 @@
+total=0;forstep(X=1,999,1,if(Mod(X,3)==0||Mod(X,5)==0, total=total+X));print(total);

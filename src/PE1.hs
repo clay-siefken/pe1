@@ -1,0 +1,1 @@
+main = print (foldl (\x y -> x + (if y `mod` 3 == 0 || y `mod` 5 == 0 then y else 0)) 0 [1..999])
