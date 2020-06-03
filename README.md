@@ -65,10 +65,10 @@ At the time I was writing these, this was only for fun. I may have referenced co
 - [Shell](src/PE1.sh)
 - [S-Lang](src/PE1.sl)
   - I think this is S-Lang, but I'm not 100% sure.
-- PE1.sml
+- [Standard ML](src/PE1.sml)
 - [SQL](src/PE1.sql)
-- PE1.st
-- PE1.tcl
-- PE1.vbs
-- PE1.wxm
-- PE1.xls
+- [Smalltalk](PE1.st)
+- [TCL](PE1.tcl)
+- [VBScript](PE1.vbs)
+- [WXMaxima](PE1.wxm)
+- [Excel Spreadsheet](PE1.xls)
