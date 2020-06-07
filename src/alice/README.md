@@ -10,3 +10,4 @@ https://www.alice.org/
 
 # Gotchas
 
+* This is not something you can run from command line, from the looks of it.
