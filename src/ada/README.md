@@ -6,8 +6,11 @@ http://www.open-std.org/JTC1/SC22/WG9/overview.htm#language
 
 # Instructions for PE1.adb
 
-* https://gcc.gnu.org/onlinedocs/gcc-4.6.4/gnat_ugn_unw/Running-a-Simple-Ada-Program.html
-* This has not been confirmed, I will check this out soon.
+Confirmed 6/7/20:
+
+* `docker run --rm -v $(pwd)/:/app tomekw/ada-gnat gnatmake pe1.adb`
+* `docker run --rm -v $(pwd)/:/app tomekw/ada-gnat ./pe1`
 
 # Gotchas
 
+* Requires Docker
