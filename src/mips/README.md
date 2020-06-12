@@ -4,7 +4,7 @@ The MIPS RISC architecture has a simple assembly language that is easy for colle
 
 # Instructions for PE1.asm
 
-TODO: test with xspim
+* Tested with QtSpim on 6/12/2020 - produces correct result, then the simulator reports an error of some sort.
 
 # Gotchas
 
